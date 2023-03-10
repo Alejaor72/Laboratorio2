@@ -46,6 +46,45 @@ class AppContainer3 extends HTMLElement{
         });
     }
 }
-
-
 customElements.define('app-container3', AppContainer3);
+
+class AppContainer extends HTMLElement{
+    constructor(){
+        super();
+        this.attachShadow({mode: 'open'});
+    }
+
+    connectedCallback(){
+        this.render();
+    }
+
+    
+    render(){
+       
+        data.forEach((e) => {
+            this.shadowRoot.innerHTML += `
+            <my-product1 product="${e.product}" brand="${e.brand}" ></my-product1>
+            `   
+        });
+    }
+}
+customElements.define('app-container', AppContainer);
+
+class AppContainer4 extends HTMLElement{
+    constructor(){
+        super();
+        this.attachShadow({mode: 'open'});
+    }
+
+    connectedCallback(){
+        this.render();
+    }
+
+    
+    render(){
+        this.shadowRoot.innerHTML = `
+        <my-buttons></my-buttons>
+        `;
+    }
+}
+customElements.define('app-container4', AppContainer4);
