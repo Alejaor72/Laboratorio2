@@ -2,6 +2,12 @@
     padding: 0px;
     margin: 0px;
 }
+
+body{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .abajo{
     display: flex;
     justify-content: space-around;
@@ -38,7 +44,7 @@ header div{
     align-items: center;
     align-content: center;
     flex-direction: column;
-    
+    background-color: white;
 }
 
 app-container4{
@@ -54,7 +60,36 @@ app-container4{
 
 app-container4 button{
     background-color: rgb(255, 255, 255);
-    border: none;
+    border: 1px rgb(198, 198, 198);
     font-size: 60%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+app-container{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+ }
+
+ app-container2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+app-container3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
 }

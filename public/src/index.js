@@ -18,7 +18,7 @@ class AppContainer2 extends HTMLElement{
        
         data2.forEach((e) => {
             this.shadowRoot.innerHTML += `
-            <product-2 product="${e.product}" brand="${e.brand} image="${e.image}" ></product-2>
+            <product-2 product="${e.product}" brand="${e.brand}" image="${e.image}" ></product-2>
             `   
         });
     }
@@ -63,7 +63,7 @@ class AppContainer extends HTMLElement{
        
         data.forEach((e) => {
             this.shadowRoot.innerHTML += `
-            <my-product1 product="${e.product}" brand="${e.brand}" ></my-product1>
+            <my-product1 product="${e.product}" brand="${e.brand}" image="${e.image}" ></my-product1>
             `   
         });
     }
