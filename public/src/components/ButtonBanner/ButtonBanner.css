@@ -1,0 +1,11 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(198, 198, 198);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

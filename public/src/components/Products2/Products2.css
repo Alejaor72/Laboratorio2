@@ -1,0 +1,12 @@
+.producto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Helvetica,Arial,tahoma,'Hiragino Maru Gothic Pro','Microsoft YaHei','Hiragino Sans GB',sans-serif;
+}
+.name{
+    color: #636363;
+}
