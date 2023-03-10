@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Alejaor72/Laboratorio2/issues"
   },
-  "homepage": "https://github.com/Alejaor72/Laboratorio2#readme"
+  "homepage": "https://github.com/Alejaor72/Laboratorio2#readme",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
 }
