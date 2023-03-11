@@ -24,7 +24,7 @@ class MyProduct2 extends HTMLElement {
         <link rel="stylesheet" href="./src/components/Products2/Products2.css">
         <div class= "producto2">
         <img src="${this.image}" alt="holi">
-        <p>${this.brand}</p>
+        <p class="title">${this.brand}</p>
         <p class="name">${this.product}</p>
         </div>
         `;

@@ -22,11 +22,11 @@ class MyFlashSales extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML= `
         <link rel="stylesheet" href="./src/components/FlashSales/FlashSales.css">
-        <div class= "producto2">
+        <div class= "flashSales">
         <img src="${this.image}" alt="">
-        <p>${this.product}</p>
-        <p>${this.price}</p>
-        <p>${this.deal}</p>
+        <p class="product">${this.product}</p>
+        <p class="price">${this.price}</p>
+        <p class="deal">${this.deal}</p>
         </div>
         `;
         }
